@@ -1,0 +1,8 @@
+{
+  "forwardPorts": [8080, 8081, 8085],
+  "portsAttributes": {
+    "8080": { "label": "Kestra UI", "onAutoForward": "openBrowser" },
+    "8081": { "label": "Kestra Health" },
+    "8085": { "label": "pgAdmin" }
+  }
+}
